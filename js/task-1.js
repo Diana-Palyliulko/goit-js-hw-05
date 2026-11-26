@@ -1,6 +1,5 @@
 'use strict';
-// Оголоси стрілочну функцію getUserNames, яка очікує один параметр users — масив об'єктів користувачів.
-// Функція повертає масив імен усіх користувачів (властивість name) із масиву users.
+
 const getUserNames = (users) => {
   return users.map((user) => user.name);
 };
